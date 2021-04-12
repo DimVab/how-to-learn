@@ -1,0 +1,42 @@
+[33mcommit 915c01b44c5ae5067818df5b8c2932bcf24b25bd[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: Dmitry Vabischevich <Dmitryvabischevich@gmail.com>
+Date:   Mon Mar 29 14:34:20 2021 +0300
+
+    К проверке 2.0
+
+[33mcommit dc488f9c66cc6154c5a5f2ee006837513666c547[m
+Author: Dmitry Vabischevich <Dmitryvabischevich@gmail.com>
+Date:   Sun Mar 28 14:54:59 2021 +0300
+
+    К проверке 1.1
+
+[33mcommit 3f7194e12700d60906694bd6363b3c08068c2561[m
+Merge: ae3b8ee cdba119
+Author: Dmitry Vabischevich <Dmitryvabischevich@gmail.com>
+Date:   Sun Mar 28 14:50:19 2021 +0300
+
+    Merge branch 'main' of https://github.com/DimVab/how-to-learn
+
+[33mcommit ae3b8ee9ef1b51eb4272dfe1dbb322bfaddb0933[m[33m ([m[1;32mtemp[m[33m)[m
+Author: Dmitry Vabischevich <Dmitryvabischevich@gmail.com>
+Date:   Sun Mar 28 14:32:37 2021 +0300
+
+    К проверке 1.1
+
+[33mcommit 968ebb336fd93e086fd4a8757a671ca06d31c58a[m
+Author: Dmitry Vabischevich <Dmitryvabischevich@gmail.com>
+Date:   Sun Mar 28 14:26:39 2021 +0300
+
+    К проверке 1.1
+
+[33mcommit cdba119d83841eb233afcb9830a49f58e8b0a06d[m
+Author: Dmitry Vabischevich <Dmitryvabischevich@gmail.com>
+Date:   Sun Mar 28 12:50:13 2021 +0300
+
+    К проверке 1.0
+
+[33mcommit 49d4f3c7b6125cd19944854007d80a72f9aae5e0[m
+Author: DimVab <81362814+DimVab@users.noreply.github.com>
+Date:   Thu Mar 25 16:41:14 2021 +0300
+
+    Initial commit
