@@ -20,7 +20,7 @@
       <img src="./images/logo/logo_place_header.svg" alt="Логотип Яндекса" class="logo logo_place_header">
       <p class="header__subtitle">
         Какие современные и эффективные подходы к обучению вы можете использовать в своей
-        жизни?<a href="#" class="header__link"> Узнать →</a>
+        жизни?<a href="#" class="header__link" target="_blank"> Узнать →</a>
       </p>
       <img src="./images/header-image.png" alt="Фрагмент картины Опять двойка" class="header__main-illustration">
       <div class="header__square-pic rotation"></div>
@@ -40,6 +40,7 @@
               уметь, но почему-то этому мало где учат. Что с этим делать?</p>
             <p class="two-columns__paragraph">Конкретные техники и упражнения помогают изменить подход к обучению,
               сделать его эффективным и захватывающим. Эти же техники применяются на примере обучения в Практикуме.</p>
+              <!-- Так и не понял, что можно/нужно форматировать внутри абзацев. Визуально вроде соответствует макету -->
           </div>
         </article>
       </section>
@@ -50,6 +51,7 @@
         <ul class="cards">
           <li class="cards__item">
             <img src="images/cards__image/cards-attention.png" alt="Книга 101 эссе" class="cards__image">
+            <!-- Фотографии предоставлены в формате png, я не выбираю) Или нужно самому менять формать изображений? -->
             <h3 class="cards__title">Два вида внимания</h3>
             <p class="cards__description">Глубокие знания возникают, если чередовать сфокусированное и рассеянное мышление.</p>
           </li>
@@ -97,7 +99,7 @@
       <section class="feynman">
         <h2 class="feynman__tittle">Метод Фейнмана</h2>
         <p class="feynman__subtitle">Выучить и не забыть.</p>
-        <a href="#" class="feynman__link">Подробнее →</a>
+        <a href="#" class="feynman__link" target="_blank">Подробнее →</a>
       </section>
 
       <section class="digits">
@@ -150,7 +152,7 @@
           <p class="khan__quote-author-subline">Кинорежиссер, продюсер</p>
           <div class="khan__book-container">
             <div class="khan__book-pic"></div>
-            <a href="#" class="khan__buy-link">Купить книгу →</a>
+            <a href="#" class="khan__buy-link" target="_blank">Купить книгу →</a>
           </div>
         </div>
       </section>
@@ -207,12 +209,20 @@
       <section class="resources">
         <h2 class="section-title resources__section-title">Полезные ресурсы</h2>
         <p class="section-subtitle resources__section-subtitle">Больше материалов о техниках и лайфхаках обучения</p>
-        <div class="resources__logo-zone">
-          <img src="images/resources__logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
-          <img src="images/resources__logo/resources-n1.svg" alt="Н + 1" class="resources__logo">
-          <img src="images/resources__logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
-          <img src="images/resources__logo/resources-polka.svg" alt="Полка" class="resources__logo">
-        </div>
+        <ul class="resources__logo-zone">
+          <li>
+            <img src="images/resources__logo/resources-arzamas.svg" alt="Арзамас" class="resources__logo">
+          </li>
+          <li>
+            <img src="images/resources__logo/resources-n1.svg" alt="Н + 1" class="resources__logo">
+          </li>
+          <li>
+            <img src="images/resources__logo/resources-strelka.svg" alt="Стрелка" class="resources__logo">
+          </li>
+          <li>
+            <img src="images/resources__logo/resources-polka.svg" alt="Полка" class="resources__logo">
+          </li>
+        </г>
       </section>
 
     </main>
@@ -235,17 +245,18 @@
           <h2 class="footer__column-heading">Соцсети</h2>
           <ul class="footer__column-links">
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img src="./images/icons/facebook_color_white.svg" alt="Иконка Facebook" class="footer__social-icon">Facebook
+                <!-- Замечание учёл. Однако в данном проекте в брифе 1-ого спринта для иконок был указан только 1 класс: footer__column-link. Одному классу стилизовать в 3-х случаях 3 разных фона можно было бы с помощью псевдоклассов, но это, по моему мнению, было бы излишне. Либо пришлось бы отступать от брифа и присваивать каждой иконке отдельный класс (элемент), и каждому отдельному классу задавать свой фон -->
               </a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img src="./images/icons/vk_color_white.svg" alt="Иконка ВКонтакте" class="footer__social-icon">ВКонтакте
               </a>
             </li>
             <li>
-              <a href="#" class="footer__column-link">
+              <a href="#" class="footer__column-link" target="_blank">
                 <img src="./images/icons/instagram_color_white.svg" alt="Иконка Instagram" class="footer__social-icon">Instagram
               </a>
             </li>

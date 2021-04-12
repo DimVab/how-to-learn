@@ -79,7 +79,7 @@
 /*блок kaufman*/
 @import url(../blocks/kaufman/kaufman.css);
 @import url(../blocks/kaufman/__section-tittle/kaufman__section-tittle.css);
-@import url(../blocks/kaufman/__section_subtitle/kaufman__section-subtitle.css);
+@import url(../blocks/kaufman/__section-subtitle/kaufman__section-subtitle.css);
 @import url(../blocks/kaufman/__table/kaufman__table.css);
 @import url(../blocks/kaufman/__triangle/kaufman__triangle.css);
 /*блок resourses*/
