@@ -4,4 +4,6 @@
   justify-content: center;
   gap: 20px;
   transform: translate(0, 50px);
+  list-style: none;
+  padding: 0;
 }
